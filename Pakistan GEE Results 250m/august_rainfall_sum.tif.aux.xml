@@ -1,0 +1,12 @@
+<PAMDataset>
+  <PAMRasterBand band="1">
+    <Description>precipitationCal_sum</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MAXIMUM">1955.6069803988</MDI>
+      <MDI key="STATISTICS_MEAN">1056.016788012</MDI>
+      <MDI key="STATISTICS_MINIMUM">284.11727059982</MDI>
+      <MDI key="STATISTICS_STDDEV">279.35294997936</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">59.08</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>
