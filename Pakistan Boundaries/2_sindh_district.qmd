@@ -1,0 +1,65 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.28.1-Firenze">
+  <identifier>pak_admbnda_adm2_wfp_20220909</identifier>
+  <parentidentifier></parentidentifier>
+  <language>ENG</language>
+  <type>dataset</type>
+  <title>PAKISTAN: Admin Level 2 Boundaries</title>
+  <abstract>The dataset represents the districts of Pakistan.
+
+Administrative level 2 boundaries of Pakistan</abstract>
+  <keywords vocabulary="Search keys">
+    <keyword>ADMINISTRATIVE DIVISIONS</keyword>
+    <keyword>COMMON OPERATIONAL DATASET - COD</keyword>
+  </keywords>
+  <contact>
+    <contactAddress>
+      <type></type>
+      <address>1180 E. Broad St.</address>
+      <city>Athens</city>
+      <administrativearea>Georgia</administrativearea>
+      <postalcode>30602-5418</postalcode>
+      <country>US</country>
+    </contactAddress>
+    <name>Joseph Childs</name>
+    <organization>ITOS - University of Georgia</organization>
+    <position>Staff</position>
+    <voice>(706) 542-7766</voice>
+    <fax></fax>
+    <email>gist-admin@cviog.itos.uga.edu</email>
+    <role></role>
+  </contact>
+  <links/>
+  <history>Layer was downloaded by ITOS from HDX. It was then analyzed by ITOS for errors. Those errors were corrected and then the layer was sent back to UNOCHA as a feature class within a file geodatabase. The following was found and fixed by ITOS: 1. Names changed from ALL CAPS to Proper Case. 2. Unit “Surab”with p-code “PK233” re-named "Shaheed Sikandarabad". 3. 19 small nesting errors fixed among admin layers. 4. Fixed 1 gap error and 1 overlap error.</history>
+  <fees></fees>
+  <constraints type="Limitations of use">See the COD/FOD Registry Terms of Use. This does not replace any terms of use information provided with the dataset.</constraints>
+  <encoding></encoding>
+  <crs>
+    <spatialrefsys nativeFormat="Wkt">
+      <wkt>GEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["Horizontal component of 3D system."],AREA["World."],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+      <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+      <srsid>3452</srsid>
+      <srid>4326</srid>
+      <authid>EPSG:4326</authid>
+      <description>WGS 84</description>
+      <projectionacronym>longlat</projectionacronym>
+      <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+      <geographicflag>true</geographicflag>
+    </spatialrefsys>
+  </crs>
+  <extent>
+    <spatial crs="EPSG:4326" miny="23.69468300000000127" maxx="77.83396700000000124" minx="60.87859699999999918" maxy="37.08942400000000106" minz="0" maxz="0" dimensions="2"/>
+    <temporal>
+      <period>
+        <start>2022-09-08T23:00:00Z</start>
+        <end></end>
+      </period>
+    </temporal>
+    <temporal>
+      <period>
+        <start></start>
+        <end></end>
+      </period>
+    </temporal>
+  </extent>
+</qgis>
