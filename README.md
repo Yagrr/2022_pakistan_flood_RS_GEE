@@ -1,6 +1,10 @@
 # 2022 Pakistan Flood - Remote Sensing project (GEE)
 Agricultural flood impact analysis of Sindh province during flooding in 1st-31st August.
+
 All data and software used in this project are open-data or publicly available.
+
+Project files are under MIT license and can be used as you please.
+By this license, you must credit me as (Laurent Chan) and link back to this repository.
 
 ## Data sources
 .tif files are exports from Google Earth Engine (GEE) processed using QGIS.
