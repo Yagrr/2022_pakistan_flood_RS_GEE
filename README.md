@@ -1,6 +1,13 @@
 # 2022 Pakistan Flood - Remote Sensing project (GEE)
 Agricultural flood impact analysis of Sindh province during flooding in 1st-31st August.
 
+Main results are in the 'Pakistan GEE Results 250m Statistics' folder. 
+
+Results:
+
+Sindh_District_results.gpkg
+Sindh_Tehsil_results.gpkg 
+
 All data and software used in this project are open-data or publicly available.
 
 Project files are under MIT license and can be used as you please.
